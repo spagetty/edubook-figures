@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 740" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+  <rect width="1400" height="740" fill="#ffffff"/>
+  <text x="40" y="46" font-size="22" font-weight="bold" fill="#333d47">図6｜「経験 → 成長 → 成果の実感」の因果構造（ScTNフレーム・第2章）</text>
+  <text x="1360" y="46" font-size="14" fill="#9aa5ad" text-anchor="end">【仮案】</text>
+
+  <!-- 経験 -->
+  <g>
+    <rect x="60" y="120" width="400" height="440" rx="12" fill="#ffffff" stroke="#2e7d8a" stroke-width="2.5"/>
+    <rect x="60" y="120" width="400" height="60" rx="12" fill="#2e7d8a"/>
+    <text x="260" y="158" font-size="19" fill="#ffffff" text-anchor="middle" font-weight="bold">学校教育の経験</text>
+    <text x="260" y="212" font-size="14.5" fill="#5c6770" text-anchor="middle">5つの学習経験</text>
+    <g font-size="15.5" fill="#333d47">
+      <rect x="90" y="235" width="340" height="48" rx="8" fill="#e6f1f3"/>
+      <text x="260" y="266" text-anchor="middle">本物の学び</text>
+      <rect x="90" y="295" width="340" height="48" rx="8" fill="#e6f1f3"/>
+      <text x="260" y="326" text-anchor="middle">探究の学び</text>
+      <rect x="90" y="355" width="340" height="48" rx="8" fill="#e6f1f3"/>
+      <text x="260" y="386" text-anchor="middle">個別の学び</text>
+      <rect x="90" y="415" width="340" height="48" rx="8" fill="#e6f1f3"/>
+      <text x="260" y="446" text-anchor="middle">協同の学び</text>
+      <rect x="90" y="475" width="340" height="48" rx="8" fill="#e6f1f3"/>
+      <text x="260" y="506" text-anchor="middle">民主的な学校生活</text>
+    </g>
+  </g>
+
+  <path d="M 468 340 L 528 340" stroke="#2e7d8a" stroke-width="4" marker-end="url(#arrowB)"/>
+  <text x="498" y="318" font-size="14" fill="#2e7d8a" text-anchor="middle" font-weight="bold">育む</text>
+
+  <!-- 成長 -->
+  <g>
+    <rect x="540" y="120" width="400" height="440" rx="12" fill="#ffffff" stroke="#5f8f6a" stroke-width="2.5"/>
+    <rect x="540" y="120" width="400" height="60" rx="12" fill="#5f8f6a"/>
+    <text x="740" y="158" font-size="19" fill="#ffffff" text-anchor="middle" font-weight="bold">成長</text>
+    <text x="740" y="212" font-size="14.5" fill="#5c6770" text-anchor="middle">学びに向かう力・人間性（4つの群）</text>
+    <g font-size="14.5" fill="#333d47">
+      <rect x="570" y="235" width="340" height="66" rx="8" fill="#eef4f0"/>
+      <text x="740" y="262" text-anchor="middle" font-weight="bold">学びに向かう力</text>
+      <text x="740" y="286" text-anchor="middle" font-size="12.5" fill="#5c6770">学びの動機・自己調整力・相互調整力</text>
+      <rect x="570" y="313" width="340" height="66" rx="8" fill="#eef4f0"/>
+      <text x="740" y="340" text-anchor="middle" font-weight="bold">自分への信頼</text>
+      <text x="740" y="364" text-anchor="middle" font-size="12.5" fill="#5c6770">自己効力感・自己受容感</text>
+      <rect x="570" y="391" width="340" height="66" rx="8" fill="#eef4f0"/>
+      <text x="740" y="418" text-anchor="middle" font-weight="bold">他者とのつながり</text>
+      <text x="740" y="442" text-anchor="middle" font-size="12.5" fill="#5c6770">他者への受容感・他者からの受容感・集合効力感</text>
+      <rect x="570" y="469" width="340" height="66" rx="8" fill="#eef4f0"/>
+      <text x="740" y="496" text-anchor="middle" font-weight="bold">自分を超えた何かを大切にする意志</text>
+      <text x="740" y="520" text-anchor="middle" font-size="12.5" fill="#5c6770">自己超越感</text>
+    </g>
+  </g>
+
+  <path d="M 948 340 L 1008 340" stroke="#5f8f6a" stroke-width="4" marker-end="url(#arrowG2)"/>
+  <text x="978" y="318" font-size="14" fill="#5f8f6a" text-anchor="middle" font-weight="bold">つながる</text>
+
+  <!-- 成果の実感 -->
+  <g>
+    <rect x="1020" y="220" width="320" height="240" rx="12" fill="#ffffff" stroke="#d9822b" stroke-width="2.5"/>
+    <rect x="1020" y="220" width="320" height="60" rx="12" fill="#d9822b"/>
+    <text x="1180" y="258" font-size="19" fill="#ffffff" text-anchor="middle" font-weight="bold">成果の実感</text>
+    <text x="1180" y="330" font-size="14.5" fill="#333d47" text-anchor="middle">学びの成果を、</text>
+    <text x="1180" y="356" font-size="14.5" fill="#333d47" text-anchor="middle">自分自身の実感として</text>
+    <text x="1180" y="382" font-size="14.5" fill="#333d47" text-anchor="middle">受け止める層</text>
+  </g>
+
+  <text x="700" y="630" font-size="14.5" fill="#5c6770" text-anchor="middle">「経験」のスコアが高い学級ほど「成長」のスコアも高い、という関連がこの構造を裏づける</text>
+  <text x="700" y="662" font-size="13" fill="#9aa5ad" text-anchor="middle">各層はScTN質問紙（子ども本人による自己評価型アセスメント）で測定し、データで検証・更新し続ける</text>
+
+  <defs>
+    <marker id="arrowB" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2e7d8a"/>
+    </marker>
+    <marker id="arrowG2" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#5f8f6a"/>
+    </marker>
+  </defs>
+</svg>

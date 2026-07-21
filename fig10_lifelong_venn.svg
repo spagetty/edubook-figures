@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+  <rect width="1000" height="680" fill="#ffffff"/>
+  <text x="40" y="46" font-size="22" font-weight="bold" fill="#333d47">図10｜生涯学習を最大集合とする包含関係（第5章）</text>
+  <text x="960" y="46" font-size="14" fill="#9aa5ad" text-anchor="end">【仮案】</text>
+
+  <!-- 最大集合 -->
+  <ellipse cx="500" cy="370" rx="400" ry="240" fill="#e6f1f3" stroke="#2e7d8a" stroke-width="2.5"/>
+  <text x="500" y="180" font-size="21" fill="#2e7d8a" text-anchor="middle" font-weight="bold">生涯学習</text>
+  <text x="500" y="208" font-size="13.5" fill="#5c6770" text-anchor="middle">生まれてから生涯続く、学びの全体</text>
+
+  <!-- 公教育 -->
+  <circle cx="360" cy="410" r="130" fill="#ffffff" stroke="#5f8f6a" stroke-width="2.5"/>
+  <text x="360" y="395" font-size="18" fill="#333d47" text-anchor="middle" font-weight="bold">公教育</text>
+  <text x="360" y="423" font-size="13" fill="#5c6770" text-anchor="middle">学校での学び</text>
+  <text x="360" y="447" font-size="12" fill="#8b979f" text-anchor="middle">小・中・高・大学など</text>
+
+  <!-- 社員教育 -->
+  <circle cx="650" cy="410" r="130" fill="#ffffff" stroke="#d9822b" stroke-width="2.5"/>
+  <text x="650" y="395" font-size="18" fill="#333d47" text-anchor="middle" font-weight="bold">社員教育</text>
+  <text x="650" y="423" font-size="13" fill="#5c6770" text-anchor="middle">企業での学び</text>
+  <text x="650" y="447" font-size="12" fill="#8b979f" text-anchor="middle">研修・OJT・リスキリング</text>
+
+  <!-- 周辺の学び -->
+  <g font-size="12.5" fill="#5c6770">
+    <text x="500" y="262" text-anchor="middle">趣味・遊び</text>
+    <text x="185" y="300" text-anchor="middle">子育て</text>
+    <text x="815" y="300" text-anchor="middle">地域活動</text>
+    <text x="500" y="560" text-anchor="middle">読書・コミュニティ活動</text>
+  </g>
+
+  <text x="500" y="646" font-size="14.5" fill="#333d47" text-anchor="middle" font-weight="bold">公教育も社員教育も、生涯にわたる学びという大きな円の一部分</text>
+</svg>

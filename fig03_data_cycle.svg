@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1150 900" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+  <rect width="1150" height="900" fill="#ffffff"/>
+  <text x="40" y="46" font-size="22" font-weight="bold" fill="#333d47">図3｜教育データサイクルの4つのプロセス（第2章）</text>
+  <text x="1110" y="46" font-size="14" fill="#9aa5ad" text-anchor="end">【仮案】</text>
+
+  <!-- 中心 -->
+  <circle cx="575" cy="480" r="130" fill="#e6f1f3" stroke="#2e7d8a" stroke-width="2"/>
+  <text x="575" y="455" font-size="18" fill="#2e7d8a" text-anchor="middle" font-weight="bold">教育データサイクル</text>
+  <text x="575" y="488" font-size="15" fill="#333d47" text-anchor="middle">主体情報 ⇄ 内容情報 ⇄ 活動情報</text>
+  <text x="575" y="516" font-size="13" fill="#5c6770" text-anchor="middle">3つの情報が循環し続ける</text>
+
+  <!-- 循環矢印（時計回り） -->
+  <path d="M 575 300 A 180 180 0 0 1 755 480" fill="none" stroke="#bcd8dd" stroke-width="5" marker-end="url(#arrowT)"/>
+  <path d="M 755 480 A 180 180 0 0 1 575 660" fill="none" stroke="#bcd8dd" stroke-width="5" marker-end="url(#arrowT)"/>
+  <path d="M 575 660 A 180 180 0 0 1 395 480" fill="none" stroke="#bcd8dd" stroke-width="5" marker-end="url(#arrowT)"/>
+  <path d="M 395 480 A 180 180 0 0 1 575 300" fill="none" stroke="#bcd8dd" stroke-width="5" marker-end="url(#arrowT)"/>
+
+  <!-- ① 上 -->
+  <g>
+    <rect x="365" y="110" width="420" height="120" rx="10" fill="#ffffff" stroke="#2e7d8a" stroke-width="2"/>
+    <circle cx="400" cy="145" r="18" fill="#2e7d8a"/>
+    <text x="400" y="151" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+    <text x="430" y="151" font-size="17" fill="#333d47" font-weight="bold">人を知る（主体情報の把握）</text>
+    <text x="430" y="181" font-size="13.5" fill="#5c6770">子どもの興味・得意・学び方の癖をデータで集める。</text>
+    <text x="430" y="204" font-size="13.5" fill="#5c6770">教師の will（どういう場を創りたいか）も集める。</text>
+  </g>
+
+  <!-- ② 右 -->
+  <g>
+    <rect x="820" y="400" width="310" height="160" rx="10" fill="#ffffff" stroke="#2e7d8a" stroke-width="2"/>
+    <circle cx="855" cy="435" r="18" fill="#2e7d8a"/>
+    <text x="855" y="441" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+    <text x="885" y="441" font-size="16.5" fill="#333d47" font-weight="bold">内容を「本物の学び」に</text>
+    <text x="855" y="474" font-size="13.5" fill="#5c6770">学習指導要領を機械可読にして</text>
+    <text x="855" y="496" font-size="13.5" fill="#5c6770">学びの地図をつくり、地域の話題や</text>
+    <text x="855" y="518" font-size="13.5" fill="#5c6770">世界の時勢と教科書を紐づける</text>
+    <text x="855" y="540" font-size="13.5" fill="#5c6770">（内容情報の高度化）。</text>
+  </g>
+
+  <!-- ③ 下 -->
+  <g>
+    <rect x="365" y="720" width="420" height="130" rx="10" fill="#ffffff" stroke="#2e7d8a" stroke-width="2"/>
+    <circle cx="400" cy="755" r="18" fill="#2e7d8a"/>
+    <text x="400" y="761" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+    <text x="430" y="761" font-size="17" fill="#333d47" font-weight="bold">AIの設計案をもとに教師が授業を組み立てる</text>
+    <text x="430" y="791" font-size="13.5" fill="#5c6770">主体×内容の情報から、AIが単元計画・活動・問いの</text>
+    <text x="430" y="813" font-size="13.5" fill="#5c6770">たたき台を提示。採用と手直しの判断は教師が行う。</text>
+  </g>
+
+  <!-- ④ 左 -->
+  <g>
+    <rect x="20" y="400" width="310" height="160" rx="10" fill="#ffffff" stroke="#2e7d8a" stroke-width="2"/>
+    <circle cx="55" cy="435" r="18" fill="#2e7d8a"/>
+    <text x="55" y="441" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+    <text x="85" y="441" font-size="16.5" fill="#333d47" font-weight="bold">授業ごとの見直し</text>
+    <text x="55" y="474" font-size="13.5" fill="#5c6770">振り返りやスタディログ</text>
+    <text x="55" y="496" font-size="13.5" fill="#5c6770">（活動情報）で主体情報を更新。</text>
+    <text x="55" y="518" font-size="13.5" fill="#5c6770">次の授業計画が自動で</text>
+    <text x="55" y="540" font-size="13.5" fill="#5c6770">アップデートされ、新たな循環へ。</text>
+  </g>
+
+  <text x="575" y="884" font-size="13" fill="#9aa5ad" text-anchor="middle">章冒頭の「主体⇄内容⇄活動の循環図」は本図の中心部を簡略版として兼用（図版計画・必須3）</text>
+
+  <defs>
+    <marker id="arrowT" markerWidth="9" markerHeight="9" refX="6" refY="3.5" orient="auto">
+      <path d="M0,0 L7,3.5 L0,7 Z" fill="#bcd8dd"/>
+    </marker>
+  </defs>
+</svg>

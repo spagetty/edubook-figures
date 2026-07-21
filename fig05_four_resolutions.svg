@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+  <rect width="1200" height="800" fill="#ffffff"/>
+  <text x="40" y="46" font-size="22" font-weight="bold" fill="#333d47">図5｜主体情報の4つの解像度（第2章）</text>
+  <text x="1160" y="46" font-size="14" fill="#9aa5ad" text-anchor="end">【仮案】</text>
+  <text x="40" y="78" font-size="14.5" fill="#5c6770">「変化するタイムスパン」に応じて、学習者を4つの解像度で捉える</text>
+
+  <!-- 特性 -->
+  <g>
+    <rect x="60" y="110" width="900" height="130" rx="10" fill="#e6f1f3" stroke="#2e7d8a" stroke-width="1.5"/>
+    <text x="90" y="160" font-size="21" fill="#333d47" font-weight="bold">特性</text>
+    <text x="90" y="184" font-size="12.5" fill="#5c6770">Trait</text>
+    <text x="230" y="152" font-size="14.5" fill="#333d47">めったに変わらない基盤。</text>
+    <text x="230" y="178" font-size="13.5" fill="#5c6770">教科・分野ごとの根源的な興味関心、認知特性・身体特性、趣味・嗜好。</text>
+    <text x="230" y="202" font-size="13.5" fill="#5c6770">例：恐竜が好き、射撃やあやとりへの没頭。</text>
+    <rect x="990" y="145" width="170" height="56" rx="28" fill="#2e7d8a"/>
+    <text x="1075" y="180" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">年ごとに更新</text>
+  </g>
+
+  <!-- 傾向 -->
+  <g>
+    <rect x="60" y="260" width="900" height="130" rx="10" fill="#eef4f0" stroke="#5f8f6a" stroke-width="1.5"/>
+    <text x="90" y="310" font-size="21" fill="#333d47" font-weight="bold">傾向</text>
+    <text x="90" y="334" font-size="12.5" fill="#5c6770">Tendency</text>
+    <text x="230" y="302" font-size="14.5" fill="#333d47">ほどほどに変わる姿勢。文脈によって発揮のされ方が変わる。</text>
+    <text x="230" y="328" font-size="13.5" fill="#5c6770">自己効力感・自己調整力・学びの動機・相互調整力などの非認知能力</text>
+    <text x="230" y="352" font-size="13.5" fill="#5c6770">（ScTNフレームの「成長」の層で測定）。単一の場面で固定的に判断しない。</text>
+    <rect x="990" y="295" width="170" height="56" rx="28" fill="#5f8f6a"/>
+    <text x="1075" y="330" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">学期〜年単位</text>
+  </g>
+
+  <!-- 状態 -->
+  <g>
+    <rect x="60" y="410" width="900" height="130" rx="10" fill="#fdf3e7" stroke="#d9822b" stroke-width="1.5"/>
+    <text x="90" y="460" font-size="21" fill="#333d47" font-weight="bold">状態</text>
+    <text x="90" y="484" font-size="12.5" fill="#5c6770">State</text>
+    <text x="230" y="452" font-size="14.5" fill="#333d47">すぐ変わる波。今日の気分やその瞬間の集中度。</text>
+    <text x="230" y="478" font-size="13.5" fill="#c0392b">本人による任意の自己申告に限定（表情や操作ログからの自動推定はしない。</text>
+    <text x="230" y="502" font-size="13.5" fill="#c0392b">入力しなくても不利益なし。監視ではなく振り返りのためのスナップショット）。</text>
+    <rect x="990" y="445" width="170" height="56" rx="28" fill="#d9822b"/>
+    <text x="1075" y="480" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">授業ごとに更新</text>
+  </g>
+
+  <!-- 学習到達状況 -->
+  <g>
+    <rect x="60" y="560" width="900" height="130" rx="10" fill="#f0eef6" stroke="#8b6bb1" stroke-width="1.5"/>
+    <text x="90" y="612" font-size="21" fill="#333d47" font-weight="bold">学習到達状況</text>
+    <text x="300" y="602" font-size="14.5" fill="#333d47">単元単位の知識・技能の習得度、思考力・判断力・表現力の到達度。</text>
+    <text x="300" y="628" font-size="13.5" fill="#5c6770">テストの点数や課題の達成度など客観データに基づく認知面の情報。</text>
+    <text x="300" y="652" font-size="13.5" fill="#5c6770">AIによる自動分析と相性がよい領域。</text>
+    <rect x="990" y="595" width="170" height="56" rx="28" fill="#8b6bb1"/>
+    <text x="1075" y="630" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">単元ごとに更新</text>
+  </g>
+
+  <text x="600" y="740" font-size="14" fill="#5c6770" text-anchor="middle">4つの解像度を重ねることで、「今、どのような自由を生きているのか」という現在地が立体的に見えてくる</text>
+</svg>

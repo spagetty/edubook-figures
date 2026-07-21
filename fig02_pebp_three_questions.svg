@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+  <rect width="1200" height="560" fill="#ffffff"/>
+  <text x="40" y="46" font-size="22" font-weight="bold" fill="#333d47">図2｜P-EBPの三つの問い（第1章）</text>
+  <text x="1160" y="46" font-size="14" fill="#9aa5ad" text-anchor="end">【仮案】</text>
+
+  <!-- 幹ラベル -->
+  <rect x="40" y="80" width="1120" height="44" rx="22" fill="#e6f1f3"/>
+  <text x="600" y="108" font-size="16" fill="#2e7d8a" text-anchor="middle" font-weight="bold">幹：P-EBP ＝ 哲学原理（Philosophical principles）とエビデンス（Evidence-based）に基づいた実践（Practice）</text>
+
+  <!-- 3つの問い -->
+  <g>
+    <rect x="60" y="170" width="320" height="160" rx="10" fill="#ffffff" stroke="#2e7d8a" stroke-width="2.5"/>
+    <rect x="60" y="170" width="320" height="46" rx="10" fill="#2e7d8a"/>
+    <text x="220" y="200" font-size="17" fill="#ffffff" text-anchor="middle" font-weight="bold">1. 哲学の問い</text>
+    <text x="220" y="262" font-size="21" fill="#333d47" text-anchor="middle" font-weight="bold">よい教育とは何か</text>
+    <text x="220" y="300" font-size="13.5" fill="#5c6770" text-anchor="middle">自由と、自由の相互承認の実質化</text>
+  </g>
+  <path d="M 388 250 L 428 250" stroke="#2e7d8a" stroke-width="3" marker-end="url(#arrow)"/>
+  <g>
+    <rect x="440" y="170" width="320" height="160" rx="10" fill="#ffffff" stroke="#2e7d8a" stroke-width="2.5"/>
+    <rect x="440" y="170" width="320" height="46" rx="10" fill="#2e7d8a"/>
+    <text x="600" y="200" font-size="17" fill="#ffffff" text-anchor="middle" font-weight="bold">2. 実証の問い</text>
+    <text x="600" y="262" font-size="21" fill="#333d47" text-anchor="middle" font-weight="bold">何が どの条件で 有効か</text>
+    <text x="600" y="300" font-size="13.5" fill="#5c6770" text-anchor="middle">データと実証科学で確かめ続ける</text>
+  </g>
+  <path d="M 768 250 L 808 250" stroke="#2e7d8a" stroke-width="3" marker-end="url(#arrow)"/>
+  <g>
+    <rect x="820" y="170" width="320" height="160" rx="10" fill="#ffffff" stroke="#2e7d8a" stroke-width="2.5"/>
+    <rect x="820" y="170" width="320" height="46" rx="10" fill="#2e7d8a"/>
+    <text x="980" y="200" font-size="17" fill="#ffffff" text-anchor="middle" font-weight="bold">3. 実践の問い</text>
+    <text x="980" y="262" font-size="21" fill="#333d47" text-anchor="middle" font-weight="bold">どう実践すればよいか</text>
+    <text x="980" y="300" font-size="13.5" fill="#5c6770" text-anchor="middle">明日の教室につながる方法へ</text>
+  </g>
+
+  <!-- 順序の注意 -->
+  <text x="600" y="390" font-size="16" fill="#333d47" text-anchor="middle" font-weight="bold">問いは、必ずこの順序で重ねる</text>
+
+  <path d="M 1000 440 L 200 440" stroke="#c0392b" stroke-width="2.5" stroke-dasharray="8 6" marker-end="url(#arrowRed)"/>
+  <line x1="580" y1="420" x2="620" y2="460" stroke="#c0392b" stroke-width="3.5"/>
+  <line x1="620" y1="420" x2="580" y2="460" stroke="#c0392b" stroke-width="3.5"/>
+  <text x="600" y="496" font-size="14.5" fill="#c0392b" text-anchor="middle">「このアプリを使えば成績が上がる」：方法（How）を出発点にして逆走しない</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2e7d8a"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#c0392b"/>
+    </marker>
+  </defs>
+</svg>

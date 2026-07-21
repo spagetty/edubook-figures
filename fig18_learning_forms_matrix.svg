@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 860" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+  <rect width="1000" height="860" fill="#ffffff"/>
+  <text x="40" y="46" font-size="22" font-weight="bold" fill="#333d47">図18｜場所と時間の2軸による「学習形態の4象限マトリクス」（第4章・次点）</text>
+  <text x="960" y="46" font-size="14" fill="#9aa5ad" text-anchor="end">【仮案】</text>
+
+  <!-- 4象限 -->
+  <g>
+    <!-- 左上: リアル×同期 -->
+    <rect x="180" y="140" width="330" height="270" fill="#f6f8f9"/>
+    <text x="345" y="205" font-size="17" fill="#333d47" text-anchor="middle" font-weight="bold">リアル × 同期</text>
+    <text x="345" y="245" font-size="13" fill="#5c6770" text-anchor="middle">対面の一斉授業・学校行事</text>
+    <text x="345" y="290" font-size="12.5" fill="#8b979f" text-anchor="middle">長らく学校教育の</text>
+    <text x="345" y="310" font-size="12.5" fill="#8b979f" text-anchor="middle">ほぼ唯一の形だった</text>
+    <!-- 右上: オンライン×同期 -->
+    <rect x="510" y="140" width="330" height="270" fill="#e6f1f3"/>
+    <text x="675" y="205" font-size="17" fill="#333d47" text-anchor="middle" font-weight="bold">オンライン × 同期</text>
+    <text x="675" y="245" font-size="13" fill="#5c6770" text-anchor="middle">ライブのオンライン授業・遠隔交流</text>
+    <text x="675" y="290" font-size="12.5" fill="#8b979f" text-anchor="middle">場所の制約を超えて</text>
+    <text x="675" y="310" font-size="12.5" fill="#8b979f" text-anchor="middle">同じ時間を共有する</text>
+    <!-- 左下: リアル×非同期 -->
+    <rect x="180" y="410" width="330" height="270" fill="#fdf3e7"/>
+    <text x="345" y="475" font-size="17" fill="#333d47" text-anchor="middle" font-weight="bold">リアル × 非同期</text>
+    <text x="345" y="515" font-size="13" fill="#5c6770" text-anchor="middle">同じ教室で、異なるペースで学ぶ</text>
+    <text x="345" y="537" font-size="13" fill="#5c6770" text-anchor="middle">（自由進度学習）</text>
+    <text x="345" y="580" font-size="12.5" fill="#8b979f" text-anchor="middle">自由進度学習の広がりで</text>
+    <text x="345" y="600" font-size="12.5" fill="#8b979f" text-anchor="middle">生まれつつある象限</text>
+    <!-- 右下: オンライン×非同期 -->
+    <rect x="510" y="410" width="330" height="270" fill="#eef4f0"/>
+    <text x="675" y="475" font-size="17" fill="#333d47" text-anchor="middle" font-weight="bold">オンライン × 非同期</text>
+    <text x="675" y="515" font-size="13" fill="#5c6770" text-anchor="middle">動画教材・通信制の自学自習</text>
+    <text x="675" y="558" font-size="12.5" fill="#8b979f" text-anchor="middle">コロナ禍を機に一気に身近に。</text>
+    <text x="675" y="578" font-size="12.5" fill="#8b979f" text-anchor="middle">通信制高校はスクーリングと組み合わせる</text>
+  </g>
+
+  <!-- 中心線 -->
+  <line x1="510" y1="140" x2="510" y2="680" stroke="#ffffff" stroke-width="4"/>
+  <line x1="180" y1="410" x2="840" y2="410" stroke="#ffffff" stroke-width="4"/>
+
+  <!-- 軸ラベル -->
+  <path d="M 180 700 L 870 700" stroke="#333d47" stroke-width="2.5" marker-end="url(#arrX)"/>
+  <path d="M 180 700 L 180 120" stroke="#333d47" stroke-width="2.5" marker-end="url(#arrX)"/>
+  <text x="525" y="738" font-size="15" fill="#333d47" text-anchor="middle" font-weight="bold">場所（リアル ←→ オンライン）</text>
+  <text x="140" y="410" font-size="15" fill="#333d47" text-anchor="middle" font-weight="bold" transform="rotate(-90 140 410)">時間（非同期 ←→ 同期）</text>
+
+  <text x="500" y="790" font-size="14" fill="#333d47" text-anchor="middle" font-weight="bold">「リアル×同期」以外の3つの象限が、学校教育に確実に登場し始めている</text>
+  <text x="500" y="820" font-size="13" fill="#9aa5ad" text-anchor="middle">どの象限が優れているかではなく、学びの目的に応じた組み合わせをデザインする</text>
+
+  <defs>
+    <marker id="arrX" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#333d47"/>
+    </marker>
+  </defs>
+</svg>

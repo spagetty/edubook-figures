@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 820" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+  <rect width="1400" height="820" fill="#ffffff"/>
+  <text x="40" y="46" font-size="22" font-weight="bold" fill="#333d47">図12｜INPUTフェーズ（チューター）とOUTPUTフェーズ（タクト）の関係（第3章・次点）</text>
+  <text x="1360" y="46" font-size="14" fill="#9aa5ad" text-anchor="end">【仮案】</text>
+  <text x="40" y="78" font-size="14" fill="#5c6770">副担任AIは授業のフェーズに応じて、2つの役割を切り替えて働く</text>
+
+  <!-- INPUT -->
+  <g>
+    <rect x="60" y="120" width="600" height="440" rx="12" fill="#ffffff" stroke="#2e7d8a" stroke-width="2.5"/>
+    <rect x="60" y="120" width="600" height="88" rx="12" fill="#2e7d8a"/>
+    <text x="360" y="156" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">INPUTフェーズ：チューター</text>
+    <text x="360" y="184" font-size="13.5" fill="#e6f1f3" text-anchor="middle">多様な入り口を用意し、個の学び（個性最適）を深める</text>
+    <g font-size="14.5" fill="#333d47">
+      <rect x="90" y="235" width="540" height="88" rx="8" fill="#e6f1f3"/>
+      <text x="115" y="270" font-weight="bold">1. 現在地を知る</text>
+      <text x="115" y="298" font-size="13" fill="#5c6770">記述に抵抗がある子には、四択・二択のクイズ形式に変換して</text>
+      <text x="115" y="316" font-size="13" fill="#5c6770">心理的ハードルを下げる</text>
+      <rect x="90" y="337" width="540" height="88" rx="8" fill="#e6f1f3"/>
+      <text x="115" y="372" font-weight="bold">2. 選択肢を広げる</text>
+      <text x="115" y="400" font-size="13" fill="#5c6770">図解・箇条書き・音声読み上げなど複数の形式を用意し、</text>
+      <text x="115" y="418" font-size="13" fill="#5c6770">自分に合う形式を子どもが選ぶ（母語での問題生成も）</text>
+      <rect x="90" y="439" width="540" height="88" rx="8" fill="#e6f1f3"/>
+      <text x="115" y="474" font-weight="bold">3. 兆しを捉える</text>
+      <text x="115" y="502" font-size="13" fill="#5c6770">失敗を恐れる兆しには、寄り添うペルソナのフィードバックで</text>
+      <text x="115" y="520" font-size="13" fill="#5c6770">自己効力感を支える</text>
+    </g>
+  </g>
+
+  <!-- OUTPUT -->
+  <g>
+    <rect x="740" y="120" width="600" height="440" rx="12" fill="#ffffff" stroke="#5f8f6a" stroke-width="2.5"/>
+    <rect x="740" y="120" width="600" height="88" rx="12" fill="#5f8f6a"/>
+    <text x="1040" y="156" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">OUTPUTフェーズ：タクト</text>
+    <text x="1040" y="184" font-size="13.5" fill="#eef4f0" text-anchor="middle">相互作用を最大化し、協働最適な場をデザインする</text>
+    <g font-size="14.5" fill="#333d47">
+      <rect x="770" y="235" width="540" height="88" rx="8" fill="#eef4f0"/>
+      <text x="795" y="270" font-weight="bold">1. 全体を見渡す</text>
+      <text x="795" y="298" font-size="13" fill="#5c6770">個人の意見から共通意見と独自の視点を抽出し、</text>
+      <text x="795" y="316" font-size="13" fill="#5c6770">個人の気づきをクラス全員の財産にする</text>
+      <rect x="770" y="337" width="540" height="88" rx="8" fill="#eef4f0"/>
+      <text x="795" y="372" font-weight="bold">2. つながりをつくる</text>
+      <text x="795" y="400" font-size="13" fill="#5c6770">関心データから異質な組み合わせを提案。教える側の理解も</text>
+      <text x="795" y="418" font-size="13" fill="#5c6770">深まるピア・チュータリングの機会を創出する</text>
+      <rect x="770" y="439" width="540" height="88" rx="8" fill="#eef4f0"/>
+      <text x="795" y="474" font-weight="bold">3. 場の変化を捉える</text>
+      <text x="795" y="502" font-size="13" fill="#5c6770">手が止まった割合などから「空気」を可視化し、</text>
+      <text x="795" y="520" font-size="13" fill="#5c6770">教師の介入タイミングを提案する</text>
+    </g>
+  </g>
+
+  <!-- 切り替え矢印 -->
+  <path d="M 668 320 L 732 320" stroke="#8b979f" stroke-width="3" marker-end="url(#arrP)"/>
+  <path d="M 732 380 L 668 380" stroke="#8b979f" stroke-width="3" marker-end="url(#arrP)"/>
+
+  <!-- 共通の出口 -->
+  <rect x="60" y="610" width="1280" height="110" rx="12" fill="#fdf3e7" stroke="#d9822b" stroke-width="2"/>
+  <text x="700" y="655" font-size="16.5" fill="#333d47" text-anchor="middle" font-weight="bold">共通の出口戦略：フェーディング（足場外し）</text>
+  <text x="700" y="688" font-size="13.5" fill="#5c6770" text-anchor="middle">自律できるようになるほど、AIは支援の頻度を下げる。目指すのはAIが手放せなくなる教室ではなく、「AIの補助がなくても自律できる学習者と組織」</text>
+  <path d="M 400 585 L 400 605" stroke="#d9822b" stroke-width="3" marker-end="url(#arrO3)"/>
+  <path d="M 1000 585 L 1000 605" stroke="#d9822b" stroke-width="3" marker-end="url(#arrO3)"/>
+
+  <text x="700" y="770" font-size="13" fill="#9aa5ad" text-anchor="middle">どちらのフェーズもゼロプロンプトで働く：教師が指示文を書かなくても、3つの情報から文脈を補完する</text>
+
+  <defs>
+    <marker id="arrP" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#8b979f"/>
+    </marker>
+    <marker id="arrO3" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#d9822b"/>
+    </marker>
+  </defs>
+</svg>

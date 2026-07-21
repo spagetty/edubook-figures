@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1150 860" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+  <rect width="1150" height="860" fill="#ffffff"/>
+  <text x="40" y="46" font-size="22" font-weight="bold" fill="#333d47">図14｜体験を資産に変える「3つの情報」の循環メカニズム（第4章・次点）</text>
+  <text x="1110" y="46" font-size="14" fill="#9aa5ad" text-anchor="end">【仮案】</text>
+  <text x="40" y="78" font-size="14" fill="#5c6770">第2章の教育データサイクル（図3）を、学校外のインフォーマルな学びにまで拡張した構想図</text>
+
+  <!-- 中心 -->
+  <circle cx="575" cy="470" r="115" fill="#e6f1f3" stroke="#2e7d8a" stroke-width="2"/>
+  <text x="575" y="455" font-size="16" fill="#2e7d8a" text-anchor="middle" font-weight="bold">3つの情報の循環</text>
+  <text x="575" y="483" font-size="13.5" fill="#333d47" text-anchor="middle">主体 ⇄ 内容 ⇄ 活動</text>
+  <text x="575" y="508" font-size="12" fill="#5c6770" text-anchor="middle">学校の外でも回り続ける</text>
+
+  <!-- 循環矢印 -->
+  <path d="M 575 305 A 165 165 0 0 1 740 470" fill="none" stroke="#bcd8dd" stroke-width="5" marker-end="url(#arrT2)"/>
+  <path d="M 740 470 A 165 165 0 0 1 575 635" fill="none" stroke="#bcd8dd" stroke-width="5" marker-end="url(#arrT2)"/>
+  <path d="M 575 635 A 165 165 0 0 1 410 470" fill="none" stroke="#bcd8dd" stroke-width="5" marker-end="url(#arrT2)"/>
+  <path d="M 410 470 A 165 165 0 0 1 575 305" fill="none" stroke="#bcd8dd" stroke-width="5" marker-end="url(#arrT2)"/>
+
+  <!-- ① 体験の記録（上） -->
+  <g>
+    <rect x="345" y="120" width="460" height="120" rx="10" fill="#ffffff" stroke="#d9822b" stroke-width="2"/>
+    <circle cx="380" cy="155" r="18" fill="#d9822b"/>
+    <text x="380" y="161" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">1</text>
+    <text x="410" y="161" font-size="16.5" fill="#333d47" font-weight="bold">日常の体験を記録する（活動情報）</text>
+    <text x="373" y="195" font-size="13" fill="#5c6770">アリの巣の観察写真、「川で水切りしたよ」の音声、</text>
+    <text x="373" y="217" font-size="13" fill="#5c6770">「きょうのひとこと」。評価のためではない、遊びの記録。</text>
+  </g>
+
+  <!-- ② AIマッピング（右） -->
+  <g>
+    <rect x="830" y="410" width="300" height="170" rx="10" fill="#ffffff" stroke="#2e7d8a" stroke-width="2"/>
+    <circle cx="865" cy="445" r="18" fill="#2e7d8a"/>
+    <text x="865" y="451" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">2</text>
+    <text x="895" y="451" font-size="16" fill="#333d47" font-weight="bold">学びの地図に翻訳</text>
+    <text x="863" y="485" font-size="13" fill="#5c6770">AIが体験を分析し、「昆虫の</text>
+    <text x="863" y="507" font-size="13" fill="#5c6770">生態や図形の学びと関係しそう」</text>
+    <text x="863" y="529" font-size="13" fill="#5c6770">と内容情報の地図へ候補として</text>
+    <text x="863" y="551" font-size="13" fill="#5c6770">マッピングする。</text>
+  </g>
+
+  <!-- ③ 主体情報の更新（下） -->
+  <g>
+    <rect x="345" y="700" width="460" height="120" rx="10" fill="#ffffff" stroke="#5f8f6a" stroke-width="2"/>
+    <circle cx="380" cy="735" r="18" fill="#5f8f6a"/>
+    <text x="380" y="741" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">3</text>
+    <text x="410" y="741" font-size="16.5" fill="#333d47" font-weight="bold">関心が見えてくる（主体情報の更新）</text>
+    <text x="373" y="775" font-size="13" fill="#5c6770">地図が埋まるにつれ、「自然科学に関心がある」という</text>
+    <text x="373" y="797" font-size="13" fill="#5c6770">その子の輪郭が浮かび上がる。</text>
+  </g>
+
+  <!-- ④ 次の学びの提案（左） -->
+  <g>
+    <rect x="20" y="410" width="300" height="170" rx="10" fill="#ffffff" stroke="#8b6bb1" stroke-width="2"/>
+    <circle cx="55" cy="445" r="18" fill="#8b6bb1"/>
+    <text x="55" y="451" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">4</text>
+    <text x="85" y="451" font-size="16" fill="#333d47" font-weight="bold">次の学びへの提案</text>
+    <text x="53" y="485" font-size="13" fill="#5c6770">地域の科学館のイベント、</text>
+    <text x="53" y="507" font-size="13" fill="#5c6770">学校での探究テーマなど、</text>
+    <text x="53" y="529" font-size="13" fill="#5c6770">次の一歩を提案。将来への</text>
+    <text x="53" y="551" font-size="13" fill="#5c6770">見通しにつながっていく。</text>
+  </g>
+
+  <text x="575" y="850" font-size="13" fill="#9aa5ad" text-anchor="middle">私が構想している次世代プラットフォームの構想図。記録するかどうかは本人の選択（評価しない余白を残す）</text>
+
+  <defs>
+    <marker id="arrT2" markerWidth="9" markerHeight="9" refX="6" refY="3.5" orient="auto">
+      <path d="M0,0 L7,3.5 L0,7 Z" fill="#bcd8dd"/>
+    </marker>
+  </defs>
+</svg>

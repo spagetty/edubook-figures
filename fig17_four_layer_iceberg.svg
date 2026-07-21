@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 880" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+  <rect width="1200" height="880" fill="#ffffff"/>
+  <text x="40" y="46" font-size="22" font-weight="bold" fill="#333d47">図17｜特性から到達度までの4階層アーキテクチャ（氷山モデル・第5章・次点）</text>
+  <text x="1160" y="46" font-size="14" fill="#9aa5ad" text-anchor="end">【仮案】</text>
+  <text x="40" y="78" font-size="14" fill="#5c6770">主体情報の4階層は、公教育・社員教育・生涯学習で中身は変わっても、構造は共通している</text>
+
+  <!-- 空と海 -->
+  <rect x="100" y="130" width="800" height="160" fill="#f2f8fa"/>
+  <rect x="100" y="290" width="800" height="470" fill="#dcebf0"/>
+  <line x1="100" y1="290" x2="900" y2="290" stroke="#2e7d8a" stroke-width="2" stroke-dasharray="10 6"/>
+  <text x="880" y="280" font-size="12.5" fill="#2e7d8a" text-anchor="end">水面＝外から見えやすい境界</text>
+
+  <!-- 氷山（台形を積む） -->
+  <!-- 到達度（水上） -->
+  <polygon points="420,160 580,160 620,286 380,286" fill="#ffffff" stroke="#8b6bb1" stroke-width="2.5"/>
+  <text x="500" y="205" font-size="17" fill="#333d47" text-anchor="middle" font-weight="bold">到達度</text>
+  <text x="500" y="230" font-size="11.5" fill="#5c6770" text-anchor="middle">Achievement</text>
+  <text x="500" y="258" font-size="12" fill="#5c6770" text-anchor="middle">知識・技能・資格</text>
+  <!-- 状態 -->
+  <polygon points="380,294 620,294 660,420 340,420" fill="#fdf3e7" stroke="#d9822b" stroke-width="2.5"/>
+  <text x="500" y="340" font-size="17" fill="#333d47" text-anchor="middle" font-weight="bold">状態</text>
+  <text x="500" y="365" font-size="11.5" fill="#5c6770" text-anchor="middle">State</text>
+  <text x="500" y="395" font-size="12" fill="#5c6770" text-anchor="middle">気分・集中・エンゲージメント（本人申告）</text>
+  <!-- 傾向 -->
+  <polygon points="340,428 660,428 710,570 290,570" fill="#eef4f0" stroke="#5f8f6a" stroke-width="2.5"/>
+  <text x="500" y="480" font-size="17" fill="#333d47" text-anchor="middle" font-weight="bold">傾向</text>
+  <text x="500" y="505" font-size="11.5" fill="#5c6770" text-anchor="middle">Tendency</text>
+  <text x="500" y="540" font-size="12" fill="#5c6770" text-anchor="middle">非認知能力・社会人基礎力・自己効力感</text>
+  <!-- 特性 -->
+  <polygon points="290,578 710,578 770,740 230,740" fill="#e6f1f3" stroke="#2e7d8a" stroke-width="2.5"/>
+  <text x="500" y="640" font-size="17" fill="#333d47" text-anchor="middle" font-weight="bold">特性</text>
+  <text x="500" y="665" font-size="11.5" fill="#5c6770" text-anchor="middle">Trait</text>
+  <text x="500" y="700" font-size="12" fill="#5c6770" text-anchor="middle">パーソナリティ・認知的個性・根源的な興味</text>
+
+  <!-- 深さの軸 -->
+  <path d="M 160 320 L 160 720" stroke="#8b979f" stroke-width="2" marker-end="url(#arrD)"/>
+  <text x="140" y="520" font-size="13" fill="#8b979f" text-anchor="middle" transform="rotate(-90 140 520)">深いほど、変わりにくい</text>
+
+  <!-- 3つの文脈での例 -->
+  <g font-size="12.5">
+    <rect x="930" y="150" width="230" height="130" rx="10" fill="#f6f8f9"/>
+    <text x="945" y="180" fill="#333d47" font-weight="bold">到達度の例</text>
+    <text x="945" y="206" fill="#5c6770">公教育：教科の知識・技能</text>
+    <text x="945" y="228" fill="#5c6770">社員教育：スキル・保有資格</text>
+    <text x="945" y="250" fill="#5c6770">生涯学習：読書や活動の知恵</text>
+    <rect x="930" y="430" width="230" height="130" rx="10" fill="#f6f8f9"/>
+    <text x="945" y="460" fill="#333d47" font-weight="bold">傾向の例</text>
+    <text x="945" y="486" fill="#5c6770">公教育：学びに向かう力</text>
+    <text x="945" y="508" fill="#5c6770">社員教育：社会人基礎力</text>
+    <text x="945" y="530" fill="#5c6770">生涯学習：内的動機・関わり方</text>
+    <rect x="930" y="600" width="230" height="130" rx="10" fill="#f6f8f9"/>
+    <text x="945" y="630" fill="#333d47" font-weight="bold">特性の例</text>
+    <text x="945" y="656" fill="#5c6770">公教育：興味の方向性</text>
+    <text x="945" y="678" fill="#5c6770">社員教育：職業的興味</text>
+    <text x="945" y="700" fill="#5c6770">生涯学習：生涯変わらない興味</text>
+  </g>
+
+  <text x="600" y="810" font-size="14" fill="#333d47" text-anchor="middle" font-weight="bold">見えやすい「到達度」だけで人を測らず、水面下の3層まで含めて捉えることが、生涯にわたる学びの土台になる</text>
+
+  <defs>
+    <marker id="arrD" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#8b979f"/>
+    </marker>
+  </defs>
+</svg>

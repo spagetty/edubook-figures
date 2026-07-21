@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 720" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+  <rect width="1400" height="720" fill="#ffffff"/>
+  <text x="40" y="46" font-size="22" font-weight="bold" fill="#333d47">図9｜フォーマルな学びとインフォーマルな学びを「学びの地図」がつなぐ（第4章）</text>
+  <text x="1360" y="46" font-size="14" fill="#9aa5ad" text-anchor="end">【仮案】</text>
+
+  <!-- フォーマル -->
+  <g>
+    <rect x="60" y="150" width="340" height="360" rx="12" fill="#e6f1f3" stroke="#2e7d8a" stroke-width="2"/>
+    <text x="230" y="200" font-size="19" fill="#2e7d8a" text-anchor="middle" font-weight="bold">フォーマルな学び</text>
+    <text x="230" y="228" font-size="13.5" fill="#5c6770" text-anchor="middle">学校</text>
+    <g font-size="14.5" fill="#333d47">
+      <rect x="90" y="260" width="280" height="52" rx="8" fill="#ffffff"/>
+      <text x="230" y="292" text-anchor="middle">教科の体系（学習指導要領）</text>
+      <rect x="90" y="326" width="280" height="52" rx="8" fill="#ffffff"/>
+      <text x="230" y="358" text-anchor="middle">授業・単元での学び</text>
+      <rect x="90" y="392" width="280" height="52" rx="8" fill="#ffffff"/>
+      <text x="230" y="424" text-anchor="middle">スタディログ</text>
+    </g>
+  </g>
+
+  <!-- インフォーマル -->
+  <g>
+    <rect x="1000" y="150" width="340" height="360" rx="12" fill="#fdf3e7" stroke="#d9822b" stroke-width="2"/>
+    <text x="1170" y="200" font-size="19" fill="#d9822b" text-anchor="middle" font-weight="bold">インフォーマルな学び</text>
+    <text x="1170" y="228" font-size="13.5" fill="#5c6770" text-anchor="middle">日常の体験</text>
+    <g font-size="14.5" fill="#333d47">
+      <rect x="1030" y="260" width="280" height="52" rx="8" fill="#ffffff"/>
+      <text x="1170" y="292" text-anchor="middle">遊び・趣味・没頭</text>
+      <rect x="1030" y="326" width="280" height="52" rx="8" fill="#ffffff"/>
+      <text x="1170" y="358" text-anchor="middle">家庭・地域での体験</text>
+      <rect x="1030" y="392" width="280" height="52" rx="8" fill="#ffffff"/>
+      <text x="1170" y="424" text-anchor="middle">失敗と工夫の繰り返し</text>
+    </g>
+  </g>
+
+  <!-- 中央：学びの地図 -->
+  <g>
+    <rect x="480" y="130" width="440" height="400" rx="14" fill="#ffffff" stroke="#333d47" stroke-width="2.5"/>
+    <text x="700" y="180" font-size="20" fill="#333d47" text-anchor="middle" font-weight="bold">学びの地図</text>
+    <!-- 白地図の等高線イメージ -->
+    <g stroke="#dde5e9" fill="none" stroke-width="1.5">
+      <path d="M 520 300 C 580 250 660 260 700 300 C 740 340 820 330 880 290"/>
+      <path d="M 520 360 C 600 320 680 340 730 380 C 780 420 840 400 880 370"/>
+      <path d="M 520 430 C 590 400 670 420 720 450 C 770 480 830 460 880 440"/>
+    </g>
+    <!-- 足跡パス -->
+    <path d="M 540 480 C 590 430 630 440 660 400 C 690 360 740 350 790 310 C 820 285 850 270 870 250"
+          fill="none" stroke="#2e7d8a" stroke-width="2.5" stroke-dasharray="2 8" stroke-linecap="round"/>
+    <circle cx="540" cy="480" r="7" fill="#2e7d8a"/>
+    <circle cx="660" cy="400" r="7" fill="#d9822b"/>
+    <circle cx="790" cy="310" r="7" fill="#2e7d8a"/>
+    <circle cx="870" cy="250" r="9" fill="#d9822b"/>
+    <text x="700" y="565" font-size="13.5" fill="#5c6770" text-anchor="middle">共有の体系図に本人の足跡が重なり、</text>
+    <text x="700" y="588" font-size="13.5" fill="#5c6770" text-anchor="middle">その子だけの地図になる</text>
+  </g>
+
+  <!-- 矢印 -->
+  <path d="M 408 330 L 470 330" stroke="#2e7d8a" stroke-width="4" marker-end="url(#arrowB3)"/>
+  <path d="M 992 330 L 930 330" stroke="#d9822b" stroke-width="4" marker-end="url(#arrowO2)"/>
+  <text x="700" y="102" font-size="15" fill="#333d47" text-anchor="middle" font-weight="bold">本人の選択で意味づけて、つなぐ</text>
+
+  <text x="700" y="650" font-size="14" fill="#5c6770" text-anchor="middle">すべての体験を記録・評価するのではない。「評価しない余白」を残すことが、この地図の前提になる</text>
+
+  <defs>
+    <marker id="arrowB3" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2e7d8a"/>
+    </marker>
+    <marker id="arrowO2" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#d9822b"/>
+    </marker>
+  </defs>
+</svg>

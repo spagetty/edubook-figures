@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 900" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+  <rect width="1000" height="900" fill="#ffffff"/>
+  <text x="40" y="46" font-size="22" font-weight="bold" fill="#333d47">図7｜授業の自由度フレーム（第3章）</text>
+  <text x="960" y="46" font-size="14" fill="#9aa5ad" text-anchor="end">【仮案】</text>
+
+  <!-- 4象限 -->
+  <g>
+    <!-- 左上 -->
+    <rect x="140" y="130" width="350" height="290" fill="#eef4f0"/>
+    <text x="315" y="190" font-size="17" fill="#333d47" text-anchor="middle" font-weight="bold">一斉型のプロジェクト学習</text>
+    <text x="315" y="230" font-size="13" fill="#5c6770" text-anchor="middle">クラス共通のテーマの下で</text>
+    <text x="315" y="252" font-size="13" fill="#5c6770" text-anchor="middle">それぞれの興味を深める。</text>
+    <text x="315" y="274" font-size="13" fill="#5c6770" text-anchor="middle">探究への足場かけの領域。</text>
+    <text x="315" y="310" font-size="12.5" fill="#5f8f6a" text-anchor="middle">場：「協同」を作りやすい</text>
+    <!-- 右上 -->
+    <rect x="490" y="130" width="350" height="290" fill="#e6f1f3"/>
+    <text x="665" y="190" font-size="17" fill="#2e7d8a" text-anchor="middle" font-weight="bold">真のプロジェクト化（探究）</text>
+    <text x="665" y="230" font-size="13" fill="#5c6770" text-anchor="middle">自ら目標を立て、</text>
+    <text x="665" y="252" font-size="13" fill="#5c6770" text-anchor="middle">内容も方法も自ら選ぶ、</text>
+    <text x="665" y="274" font-size="13" fill="#5c6770" text-anchor="middle">最も自由度の高い領域。</text>
+    <text x="665" y="310" font-size="12.5" fill="#2e7d8a" text-anchor="middle">場：「協働」「共働」が立ち上がる</text>
+    <!-- 左下 -->
+    <rect x="140" y="420" width="350" height="290" fill="#f6f8f9"/>
+    <text x="315" y="480" font-size="17" fill="#333d47" text-anchor="middle" font-weight="bold">一斉授業の領域</text>
+    <text x="315" y="520" font-size="13" fill="#5c6770" text-anchor="middle">全員が同じペースで</text>
+    <text x="315" y="542" font-size="13" fill="#5c6770" text-anchor="middle">同じ内容を学ぶ。</text>
+    <text x="315" y="578" font-size="12.5" fill="#8b979f" text-anchor="middle">場：「個別」「共同」が中心</text>
+    <!-- 右下 -->
+    <rect x="490" y="420" width="350" height="290" fill="#fdf3e7"/>
+    <text x="665" y="480" font-size="17" fill="#333d47" text-anchor="middle" font-weight="bold">個別化の領域</text>
+    <text x="665" y="520" font-size="13" fill="#5c6770" text-anchor="middle">到達目標は同じだが、</text>
+    <text x="665" y="542" font-size="13" fill="#5c6770" text-anchor="middle">ペースやツールを自ら選ぶ。</text>
+    <text x="665" y="564" font-size="13" fill="#5c6770" text-anchor="middle">自由進度学習など。</text>
+  </g>
+
+  <!-- 軸 -->
+  <path d="M 140 720 L 860 720" stroke="#333d47" stroke-width="2.5" marker-end="url(#arrowK)"/>
+  <path d="M 140 720 L 140 110" stroke="#333d47" stroke-width="2.5" marker-end="url(#arrowK)"/>
+  <text x="500" y="760" font-size="16" fill="#333d47" text-anchor="middle" font-weight="bold">方法の自由度</text>
+  <text x="185" y="758" font-size="13" fill="#5c6770">標準</text>
+  <text x="810" y="758" font-size="13" fill="#5c6770">個性的</text>
+  <text x="100" y="420" font-size="16" fill="#333d47" text-anchor="middle" font-weight="bold" transform="rotate(-90 100 420)">内容・目標の自由度</text>
+  <text x="120" y="700" font-size="13" fill="#5c6770" text-anchor="end">標準</text>
+  <text x="120" y="150" font-size="13" fill="#5c6770" text-anchor="end">個性的</text>
+
+  <!-- 中心の十字線 -->
+  <line x1="490" y1="130" x2="490" y2="710" stroke="#ffffff" stroke-width="4"/>
+  <line x1="145" y1="420" x2="855" y2="420" stroke="#ffffff" stroke-width="4"/>
+
+  <text x="500" y="822" font-size="14.5" fill="#333d47" text-anchor="middle" font-weight="bold">象限に優劣はない。単元の目的と子どものレディネスに応じて、自由度をチューニングし象限の移動をデザインする</text>
+  <text x="500" y="852" font-size="13" fill="#9aa5ad" text-anchor="middle">左下から右上へ：「個別化・協同化・プロジェクト化」に至る自由のグラデーション</text>
+
+  <defs>
+    <marker id="arrowK" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#333d47"/>
+    </marker>
+  </defs>
+</svg>

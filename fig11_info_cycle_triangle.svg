@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+  <rect width="1000" height="760" fill="#ffffff"/>
+  <text x="40" y="46" font-size="22" font-weight="bold" fill="#333d47">図11｜主体⇄内容⇄活動の循環図（第2章・次点）</text>
+  <text x="960" y="46" font-size="14" fill="#9aa5ad" text-anchor="end">【仮案】</text>
+  <text x="40" y="78" font-size="14" fill="#5c6770">図3（4つのプロセス全体図）の簡略版。章冒頭の見取り図として兼用</text>
+
+  <!-- 主体情報（上） -->
+  <g>
+    <rect x="350" y="120" width="300" height="120" rx="12" fill="#e6f1f3" stroke="#2e7d8a" stroke-width="2"/>
+    <text x="500" y="168" font-size="19" fill="#2e7d8a" text-anchor="middle" font-weight="bold">主体情報</text>
+    <text x="500" y="196" font-size="13.5" fill="#5c6770" text-anchor="middle">誰が学ぶか</text>
+    <text x="500" y="218" font-size="12.5" fill="#8b979f" text-anchor="middle">特性・傾向・状態・学習到達状況</text>
+  </g>
+  <!-- 内容情報（左下） -->
+  <g>
+    <rect x="90" y="460" width="300" height="120" rx="12" fill="#eef4f0" stroke="#5f8f6a" stroke-width="2"/>
+    <text x="240" y="508" font-size="19" fill="#5f8f6a" text-anchor="middle" font-weight="bold">内容情報</text>
+    <text x="240" y="536" font-size="13.5" fill="#5c6770" text-anchor="middle">何を学ぶか</text>
+    <text x="240" y="558" font-size="12.5" fill="#8b979f" text-anchor="middle">目標・内容・方法</text>
+  </g>
+  <!-- 活動情報（右下） -->
+  <g>
+    <rect x="610" y="460" width="300" height="120" rx="12" fill="#fdf3e7" stroke="#d9822b" stroke-width="2"/>
+    <text x="760" y="508" font-size="19" fill="#d9822b" text-anchor="middle" font-weight="bold">活動情報</text>
+    <text x="760" y="536" font-size="13.5" fill="#5c6770" text-anchor="middle">どう学んだか</text>
+    <text x="760" y="558" font-size="12.5" fill="#8b979f" text-anchor="middle">行動・成果・振り返り</text>
+  </g>
+
+  <!-- 双方向矢印 -->
+  <path d="M 385 255 L 265 445" stroke="#8b979f" stroke-width="3" marker-end="url(#arrN)" marker-start="url(#arrN2)"/>
+  <path d="M 615 255 L 735 445" stroke="#8b979f" stroke-width="3" marker-end="url(#arrN)" marker-start="url(#arrN2)"/>
+  <path d="M 405 525 L 595 525" stroke="#8b979f" stroke-width="3" marker-end="url(#arrN)" marker-start="url(#arrN2)"/>
+
+  <text x="285" y="330" font-size="12.5" fill="#5c6770" text-anchor="end">その子に合わせて</text>
+  <text x="285" y="350" font-size="12.5" fill="#5c6770" text-anchor="end">教材を組み替える</text>
+  <text x="715" y="330" font-size="12.5" fill="#5c6770">学んだ記録から</text>
+  <text x="715" y="350" font-size="12.5" fill="#5c6770">現在地を更新する</text>
+  <text x="500" y="620" font-size="12.5" fill="#5c6770" text-anchor="middle">学びの活動が、次の教材と計画を呼ぶ</text>
+
+  <text x="500" y="700" font-size="14.5" fill="#333d47" text-anchor="middle" font-weight="bold">3つの情報が循環し続けることで、一人ひとりの「自由の現在地」に合った学びが生まれる</text>
+
+  <defs>
+    <marker id="arrN" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#8b979f"/>
+    </marker>
+    <marker id="arrN2" markerWidth="10" markerHeight="10" refX="0" refY="4" orient="auto">
+      <path d="M8,0 L0,4 L8,8 Z" fill="#8b979f"/>
+    </marker>
+  </defs>
+</svg>
